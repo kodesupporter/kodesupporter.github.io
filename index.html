@@ -42,6 +42,16 @@ aside{
 background-color: #101010;
 color: white;
 }
+@media only screen and (max-device-width: 320px){
+	.btn{
+		max-width: 10%;
+	}
+}
+@media only screen and (max-device-width: 800px){
+.btn{
+	max-width: 15%;
+}
+}
 </style>
 </head>
 <body>
@@ -52,31 +62,31 @@ color: white;
 <h5 style="text-align: center;"><img src="res/image/break.png" alt="Breakpoint" style="width: 15%;" ><br></img></h5>
 <h6 style="text-align: center;">
 <button>
-<a href="https://kodelang.dev/" target="_blank">
+<a href="https://kodelang.dev/" target="_blank" class="btn">
 Kode Space
 </a>
 </button>
 <button>
-<a href="https://kodesupporter.github.io" target="_self">
+<a href="https://kodesupporter.github.io" target="_self" class="btn">
 Home
 </a>
 </button>
 <button>
-<a href="https://github.com/minhquan-onG1team/kodeman/wiki" target="_blank">
+<a href="https://github.com/minhquan-onG1team/kodeman/wiki" target="_blank" class="btn">
 Wiki
 </a>
 </button>
 <button>
-<a href="https://github.com/minhquan-onG1team/kodeman/issues" target="_blank">
+<a href="https://github.com/minhquan-onG1team/kodeman/issues" target="_blank" class="btn">
 Issues
 </a> 
 </button>
 <button>
-<a href="http://www.kodeman.cf/update.html">
+<a href="http://www.kodeman.cf/update.html" class="btn">
 Updates
 </a>
 </button>
-<button>
+<button class="btn">
 About 
 </button>
 </h6>
