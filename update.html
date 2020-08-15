@@ -5,51 +5,11 @@
 <link rel="stylesheet" href="https://fonts.google.com/specimen/Open+Sans">
 <link rel="icon" type="image/png" sizes="300x200" href="res/image/logo.png"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
 <head>
-<style>
-	body{
-		font: "Open Sans";
-		background-color: white;
-		color: black;
-	}
-	header{
-		font: "Open Sans";
-		background-color: #101010;
-	}
-	button{
-		font: "Open Sans";
-		background-color: #101010;
-		border: none;
-		color: white;
-		margin: 1%;
-		padding: 1%;
-		text-decoration: bold;
-	}
-	a{
-		font: "Open Sans";
-		color: white;
-		text-decoration: none;
-	}
-	h5{
-		text-align: center;
-	}
-	section{
-		font-family: "Open Sans";
-		text-align: left;
-		color: black;
-		background-color: white;
-	}
-	footer{
-background-color: #353535;
-font-family: "Open Sans";
-text-align: center;
-color: white;
-}
-
-</style>
 </head>
 <body>
-<header>
+<header class="header">
 <img src="res/image/logo.png" alt="KodeMan" style="width: 25%;">
 <aside class="scrollmenu">
 <!-- Button -->
@@ -91,17 +51,22 @@ About
 <section>
 <h2 style="text-align: right;">Updates</h2>
 <!-- Changelogs -->
-<h3 style="text-align: center;">Changelogs</h3>
-<p style="text-align: center;"><strong>[BETA] Version 1.0 - Intital release</strong>
+<div class="text-center">
+<h3>Changelogs</h3>
+<p><strong>[BETA] Version 1.0 - Intital release</strong>
 <br>1. Compatible with Linux 
 <br>2. Included minimal features
 <br>3. Portable release -
 <br>4. Uploaded on GitHub -
 <br><i>Design for [BETA] KodePas 1.1<br></i>
 <button style="color: DodgerBlue; background-color: white; text-decoration: underline; padding: none; margin: none;">->See more </button></p>
-<h5><img src="res/image/break.png" alt="Breakpoint" style="width: 15%"></h5>
+</div>
+<div class="br">
+<img src="res/image/break.png" alt="Breakpoint" style="width: 15%">
+</div>
 <!-- Branches -->
-<p style="text-align: left;">
+<div class="text-left">
+<p>
 <STRONG>Branch</STRONG>
 <br><img src="res/image/software-life.png" alt="KodeMan lifecycle" class="img-life">
 <br><i>Our idea about KodeMan branches</i>
@@ -109,7 +74,10 @@ About
 <br><b style="color: orange;">TESTING BRANCH</b>: Testing version of KodeMan, source code can be accessed on GitHub
 <br><b style="color: green;">STABLE BRANCH</b>: The latest stable release of KodeMan with LTS marked on Google Drive
 <br><b style="color: red;">OLDER BRANCH</b>: The older releases' source code with ZIP packages that can be found on Google Drive and no longer support</p>
+</div>
+<div class="br">
 <h5><img src="res/image/break.png" alt="Breakpoint" style="width: 15%"></h5>
+</div>
 <!--Download sites-->
 <h3 style="text-align: right;">Download</h3>
 <p style="text-align: right;">
@@ -122,25 +90,6 @@ About
 <h2>Kode Organization is trying to improve the products, the services, the softwares better than today.</h5>
 <h2>FOR A BRIGHT FUTURE!</h5>
 <p style="text-decoration: none;">Copyright © 2020 Kode Organization</p>
-<style>
-
-		.btn{width: auto;}
-		.title{font-size: 15px;}
-		.footer{font-size: 8px;}
-		.img-life{width: 100%;}
-@media only screen and (min-device-width: 720px){
-	.btn{width: auto;}
-	.title{font-size: 30px;}
-	.footer{font-size: 15px;}
-	.img-life{width: 100%;}
-}
-aside.scrollmenu{
-	background-color: rgba(255,255,255,0);
-	overflow: auto;
-	white-space: nowrap;
-}
-
-</style>
 </footer>
 </body>
 </html>
